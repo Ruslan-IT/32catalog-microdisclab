@@ -402,7 +402,7 @@ var swiper = new Swiper(".product__media--nav", {
   },
 });
 var swiper2 = new Swiper(".product__media--preview", {
-  loop: true,
+  loop: false,
   spaceBetween: 10,
   thumbs: {
     swiper: swiper,

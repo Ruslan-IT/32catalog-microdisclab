@@ -476,7 +476,7 @@
             <div class="container">
                 <div class="section__heading text-center mb-60">
                     <span class="section__heading--subtitle"></span>
-                    <h2 style="font-weight: bold"  class="section__heading--maintitle">Our worldwide presence</h2>
+                    <h2 style="font-weight: bold; color: #fff0ff"  class="section__heading--maintitle">Our worldwide presence</h2>
                 </div>
                 <div class="accordion__section--inner">
                     <div class="row">

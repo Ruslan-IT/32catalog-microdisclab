@@ -9,6 +9,22 @@
 
         @include('partials.header')
 
+        <style>
+            .product__media--preview__items {
+                height: 450px;          /* нужная высота */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+
+            .product__media--preview__items--img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;    /* НЕ обрезает */
+            }
+        </style>
+
 
 
         <main class="main__content_wrapper">
@@ -56,18 +72,21 @@
 
                                         {{-- Галерея --}}
                                         @if(!empty($product->gallery) && is_array($product->gallery))
+
                                             @foreach($product->gallery as $image)
-                                                <div class="swiper-slide">
-                                                    <div class="product__media--preview__items">
-                                                        <a class="product__media--preview__items--link glightbox"
-                                                           data-gallery="product-media-preview"
-                                                           href="{{ asset('storage/' . $image) }}">
-                                                            <img class="product__media--preview__items--img"
-                                                                 src="{{ asset('storage/' . $image) }}"
-                                                                 alt="{{ $product->title }}">
-                                                        </a>
+                                                @if($image !== $product->main_image)
+                                                    <div class="swiper-slide">
+                                                        <div class="product__media--preview__items">
+                                                            <a class="product__media--preview__items--link glightbox"
+                                                               data-gallery="product-media-preview"
+                                                               href="{{ asset('storage/' . $image) }}">
+                                                                <img class="product__media--preview__items--img"
+                                                                     src="{{ asset('storage/' . $image) }}"
+                                                                     alt="{{ $product->title }}">
+                                                            </a>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                @endif
                                             @endforeach
                                         @endif
 
@@ -89,13 +108,15 @@
 
                                         {{-- Галерея --}}
                                         @foreach($product->gallery ?? [] as $image)
-                                            <div class="swiper-slide">
-                                                <div class="product__media--nav__items">
-                                                    <img class="product__media--nav__items--img"
-                                                         src="{{ asset('storage/' . $image) }}"
-                                                         alt="{{ $product->title }}">
+                                            @if($image !== $product->main_image)
+                                                <div class="swiper-slide">
+                                                    <div class="product__media--nav__items">
+                                                        <img class="product__media--nav__items--img"
+                                                             src="{{ asset('storage/' . $image) }}"
+                                                             alt="{{ $product->title }}">
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            @endif
                                         @endforeach
 
                                     </div>

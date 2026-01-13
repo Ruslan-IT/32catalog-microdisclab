@@ -8,7 +8,7 @@
     <!-- Подключение CSS -->
 
     <!-- ::::::::::::::Favicon icon::::::::::::::-->
-    <link rel="icon" href="{{ asset('favicon-4.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
 
     <link rel="stylesheet" href="/assets/css/plugins/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/plugins/glightbox.min.css">
