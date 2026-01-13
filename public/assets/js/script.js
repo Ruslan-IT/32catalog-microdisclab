@@ -409,6 +409,14 @@ var swiper2 = new Swiper(".product__media--preview", {
   },
 });
 
+
+const swiperThumbs = new Swiper('.product__media--nav', {
+    slidesPerView: 'auto',
+    centeredSlides: false,
+    loop: false,
+    freeMode: false,
+});
+
 // tab activation
 const tab = function (wrapper) {
   let tabContainer = document.querySelector(wrapper);
