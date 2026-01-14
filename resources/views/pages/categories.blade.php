@@ -28,7 +28,7 @@
         .product__items--img {
             max-height: 100%;
             max-width: 100%;
-            object-fit: contain;        /* НЕ обрезает фото */
+            height: 280px;       /* НЕ обрезает фото */
         }
 
         /* Контент всегда снизу */

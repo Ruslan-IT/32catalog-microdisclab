@@ -207,6 +207,7 @@
                         <ul class="offcanvas__sub_menu">
 
                             <li class="offcanvas__sub_menu_li"><a href="/contacts" class="offcanvas__sub_menu_item">Contact Us</a></li>
+                            <li class="offcanvas__sub_menu_li"><a href="/category" class="offcanvas__sub_menu_item">All Categories</a></li>
 
                         </ul>
                     </li>
