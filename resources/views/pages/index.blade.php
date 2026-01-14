@@ -259,7 +259,7 @@
                                                 <a class="product__items--link"
                                                    href="{{ route('category.show', $category->slug) }}">
 
-                                                    <img src="{{ asset('storage/' . $category->main_image) }}"
+                                                    <img class="product__items--img product__primary--img" src="{{ asset('storage/' . $category->main_image) }}"
                                                          alt="{{ $category->name }}">
 
                                                 </a>
