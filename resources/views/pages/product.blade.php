@@ -16,6 +16,12 @@
                 align-items: center;
                 justify-content: center;
                 overflow: hidden;
+
+                max-height: 450px;
+                /* display: flex; */
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
             }
 
             .product__media--preview__items--img {
