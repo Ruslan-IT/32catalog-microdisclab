@@ -11,11 +11,6 @@
 
         <style>
             .product__media--preview__items {
-                height: 450px;          /* нужная высота */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                overflow: hidden;
 
                 max-height: 450px;
                 /* display: flex; */
