@@ -374,7 +374,7 @@ var swiper = new Swiper(".instagram__swiper--activation", {
 
 // product details media swiper activation
 var swiper = new Swiper(".product__media--nav", {
-  loop: true,
+  loop: false,
   spaceBetween: 10,
   slidesPerView: 5,
   freeMode: true,
@@ -410,12 +410,7 @@ var swiper2 = new Swiper(".product__media--preview", {
 });
 
 
-const swiperThumbs = new Swiper('.product__media--nav', {
-    slidesPerView: 'auto',
-    centeredSlides: false,
-    loop: false,
-    freeMode: false,
-});
+
 
 // tab activation
 const tab = function (wrapper) {
