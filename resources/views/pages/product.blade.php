@@ -186,7 +186,7 @@
 
                                         <div class="product__variant--list mb-15">
 
-                                            <button class="variant__buy--now__btn btn" type="submit">Buy it now</button>
+                                            <button class="variant__buy--now__btn btn open-modal " type="submit">Buy it now</button>
                                         </div>
 
                                     </div>

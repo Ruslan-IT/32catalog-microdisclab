@@ -129,7 +129,7 @@
                                             <p class="slider__content4--desc text-white d-sm-none">
                                                 De Nora to launch line of optimized SORB FX vessels for PFAS removal
                                             </p>
-                                            <a class="btn slider__btn style4" href="#">Discover more</a>
+                                            <a class="btn slider__btn style4 open-modal" href="#">Discover more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@
                                             <p class="slider__content4--desc text-white d-sm-none">The more you love
                                                 your health, more you eat organic. No medicine can heal you better than
                                                 organic food does</p>
-                                            <a class="btn slider__btn style4" href="shop.html">Shop Now</a> i
+                                            <a class="btn slider__btn style4 open-modal" href="#">Shop Now</a> i
                                         </div>
                                     </div>
                                 </div>
@@ -167,7 +167,7 @@
                                             <p class="slider__content4--desc d-sm-none">The more you love your health,
                                                 more you eat organic. No medicine can heal you better than organic food
                                                 does</p>
-                                            <a class="btn slider__btn style4" href="shop.html">Shop Now</a>
+                                            <a class="btn slider__btn style4 open-modal" href="#">Shop Now</a>
                                         </div>
                                     </div>
                                 </div>
