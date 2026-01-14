@@ -17,6 +17,7 @@
             </a>
             <ul class="header__sub--menu">
                 <li class="header__sub--menu__items"><a href="/contacts" class="header__sub--menu__link">Contact </a></li>
+                <li class="header__sub--menu__items"><a href="/category" class="header__sub--menu__link">All Categories  </a></li>
             </ul>
         </li>
         <li class="header__menu--items">

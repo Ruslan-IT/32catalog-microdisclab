@@ -213,7 +213,7 @@
                     </li>
 
                     <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="/contacts">Contact</a></li>
-                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="/category">All Categories</a></li>
+
                 </ul>
 
 
