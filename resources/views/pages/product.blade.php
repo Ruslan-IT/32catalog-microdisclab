@@ -10,10 +10,10 @@
         @include('partials.header')
 
         <style>
-            .product__media--preview__items {
+            /*.product__media--preview__items {
 
                 max-height: 450px;
-                /* display: flex; */
+                !* display: flex; *!
                 align-items: center;
                 justify-content: center;
                 overflow: hidden;
@@ -22,8 +22,8 @@
             .product__media--preview__items--img {
                 max-height: 100%;
                 max-width: 100%;
-                object-fit: contain;    /* НЕ обрезает */
-            }
+                object-fit: contain;    !* НЕ обрезает *!
+            }*/
         </style>
 
 
