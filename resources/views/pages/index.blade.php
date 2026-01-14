@@ -10,13 +10,15 @@
         .product__items--thumbnail {
             height: 280px;           /* одинаковая высота */
             overflow: hidden;
+            margin: 0 0 50px 0
         }
 
         .product__items--img {
             width: 100%;
-            height: 100%;
+            height: 280px;
             object-fit: cover;       /* НЕ растягивает фото */
             display: block;
+            border-radius: 10px;
         }
 
         .instagram__thumbnail {
